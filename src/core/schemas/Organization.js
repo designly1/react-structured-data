@@ -1,10 +1,10 @@
 import JSONLDAbstractNode from '../JSONLDAbstractNode';
 
-class WebPage extends JSONLDAbstractNode {
+class Organization extends JSONLDAbstractNode {
   getJSON(isFirstChildNode = false, schema) {
     const parseChildren = super.parseChildren();
     const details = {
-      '@type': 'WebPage',
+      '@type': 'Organization',
       ...schema
     }
     return isFirstChildNode
@@ -13,4 +13,4 @@ class WebPage extends JSONLDAbstractNode {
   }
 }
 
-export default WebPage;
+export default Organization;

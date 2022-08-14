@@ -5,8 +5,6 @@ class Article extends JSONLDAbstractNode {
     const parseChildren = super.parseChildren();
     const details = {
       '@type': 'Article',
-      'mainEntityOfPage': '',
-      'headline': '',
       ...schema
     }
     return isFirstChildNode
@@ -15,4 +13,4 @@ class Article extends JSONLDAbstractNode {
   }
 }
 
-export default Answer;
+export default Article;
