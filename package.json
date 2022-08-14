@@ -1,5 +1,5 @@
 {
-  "name": "react-structured-data",
+  "name": "@designly/react-structured-data",
   "version": "0.0.14",
   "description": "Declarative JSON-LD Structured Data for ReactJS Apps",
   "author": "Ben Taylor <benlt105@gmail.com>",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bentaylor2/react-structured-data.git"
+    "url": "git+https://github.com/bentaylor2/react-structured-data.git"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
@@ -81,5 +81,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "main": "./dist"
+  "main": "./dist",
+  "bugs": {
+    "url": "https://github.com/bentaylor2/react-structured-data/issues"
+  }
 }

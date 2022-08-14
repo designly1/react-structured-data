@@ -127,6 +127,7 @@ There are several preset schema components that can be used
 
 - AggregateRating
 - Answer
+- Article
 - Author
 - ItemReviewed
 - Location
@@ -134,6 +135,7 @@ There are several preset schema components that can be used
 - Question
 - Rating
 - Review
+- WebPage
 
 If you would like to use a component that is not listed, simply use the Generic component and add the prop jsonldtype.
 Generic and GenericCollection allow you to add your own structured data type.
