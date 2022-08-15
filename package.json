@@ -1,6 +1,6 @@
 {
   "name": "@designly/react-structured-data",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Declarative JSON-LD Structured Data for ReactJS Apps",
   "author": "Ben Taylor <benlt105@gmail.com>",
   "private": false,
